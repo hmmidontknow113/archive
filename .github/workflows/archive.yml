@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Save to Wayback with capture_all
         run: |
-          curl -X POST "https://web.archive.org/save/https://example.com" \
+          curl -X POST "https://web.archive.org/save/https://robey100.com" \
           -H "User-Agent: Mozilla/5.0" \
           -H "Cookie: logged-in-user=${{ secrets.IA_USER }}; logged-in-sig=${{ secrets.IA_SIG }}" \
           -d "capture_all=on"
