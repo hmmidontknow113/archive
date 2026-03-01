@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Save to Wayback
         run: |
-          curl -X POST "https://web.archive.org/save/https://example.com" \
+          curl -X POST "https://web.archive.org/save/https://robey100.com/" \
           -H "User-Agent: Mozilla/5.0" \
           -H "Accept: application/json" \
           -d "capture_all=on"
