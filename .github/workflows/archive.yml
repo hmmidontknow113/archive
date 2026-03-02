@@ -1,15 +1,13 @@
-name: Archive Website Hourly
+name: Archive Website
 
 on:
-  schedule:
-    - cron: "35 * * * *"
   workflow_dispatch:
 
 jobs:
   archive:
     runs-on: ubuntu-latest
     steps:
-      - name: Save to Wayback with capture_all
+      - name: Save to Wayback
         run: |
           curl -X POST "https://web.archive.org/save/https://robey100.com" \
           -H "User-Agent: Mozilla/5.0" \
