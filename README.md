@@ -1,1 +1,1 @@
-Archive https://robey100.com/ every hour
+Archive https://robey100.com every 5 minutes
