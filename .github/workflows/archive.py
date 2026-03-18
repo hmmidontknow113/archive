@@ -1,7 +1,12 @@
 import savepagenow
 import time
 
-BASE_URL = "https://robey100.com"
+URLS = [
+    "https://robey100.com",
+    "https://defacube.serv00.net/RDHV/",
+    "https://defacube.serv00.net/IRCED/"
+    "https://defacube.serv00.net/ucp/"
+]
 
 def archive_url(url):
     try:
@@ -22,6 +27,7 @@ def archive_url(url):
         print(f"Failed: {url} -> {e}")
 
 
-archive_url(BASE_URL)
+for url in URLS:
+    archive_url(url)
 
 print("Done.")
