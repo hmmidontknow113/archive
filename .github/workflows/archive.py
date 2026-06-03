@@ -7,7 +7,8 @@ URLS = [
     "https://defacube.serv00.net/IRCED/",
     "https://defacube.serv00.net/ucp/",
     "https://defacube.serv00.net/sitemap.xml",
-    "https://apidocs.sixteensrc.zip/"
+    "https://apidocs.sixteensrc.zip/",
+    "https://jsr.io/@roseal/roblox-deeplink-parser"
 ]
 
 def archive_url(url):
