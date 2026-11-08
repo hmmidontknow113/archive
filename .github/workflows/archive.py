@@ -8,7 +8,7 @@ URLS = [
     "https://defacube.serv00.net/ucp/",
     "https://defacube.serv00.net/sitemap.xml",
     "https://apidocs.sixteensrc.zip/",
-    "https://jsr.io/@roseal/roblox-deeplink-parser"
+    "https://jsr.io/@roseal/roblox-deeplink-parser",
     "https://gunterverse.com/"
 ]
 
